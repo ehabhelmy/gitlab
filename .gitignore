@@ -12,3 +12,4 @@
 hs_err_pid*
 /XOGame/build/
 /XOGame/dist/
+/XOServer/nbproject/private/
