@@ -5,6 +5,7 @@
  */
 package xoserver;
 
+import Network.XOInterface;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package xoserver;
+package Network;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

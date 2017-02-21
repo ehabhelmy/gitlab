@@ -17,6 +17,13 @@ import javafx.stage.Stage;
  */
 public class XOGame extends Application {
     FXMLDocumentController controller;
+    XOClass XO;
+
+    public XOGame(XOClass XO) {
+        this.XO = XO;
+    }
+    
+    
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader=new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
