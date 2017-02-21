@@ -18,4 +18,9 @@ public interface XOInterface extends Remote{
  
     public void changeValueM1()throws RemoteException;
     
+    public void changeValueM6()throws RemoteException;
+    public void changeValueM7()throws RemoteException;
+    public void changeValueM8()throws RemoteException;
+    public void changeValueM9()throws RemoteException;
+    
 }
