@@ -40,7 +40,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private TextField m9;
 
-    FXMLDocumentController(XOGame aThis) {
+    public FXMLDocumentController(XOGame aThis) {
         application=aThis;
     }
 
