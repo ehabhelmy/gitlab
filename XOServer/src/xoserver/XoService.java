@@ -54,23 +54,23 @@ public class XoService extends UnicastRemoteObject implements XOInterface{
     //michael
 
     @Override
-    public void changeValueM2() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM2(String s) throws RemoteException {
+        
     }
 
     @Override
-    public void changeValueM3() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM3(String s) throws RemoteException {
+    
     }
 
     @Override
-    public void changeValueM4() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM4(String s) throws RemoteException {
+    
     }
 
     @Override
-    public void changeValueM5() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM5(String s) throws RemoteException {
+   
     }
     
     //end michael
