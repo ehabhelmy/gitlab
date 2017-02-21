@@ -16,6 +16,8 @@ public class XoService extends UnicastRemoteObject implements XOInterface{
 
     public XoService() throws RemoteException{
     }
+    
+//    Ehab's methods
 
     @Override
     public void Reset() throws RemoteException {
@@ -46,6 +48,10 @@ public class XoService extends UnicastRemoteObject implements XOInterface{
     public void changeValueM9() throws RemoteException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    //end Ehab
+    
+    //michael
 
     @Override
     public void changeValueM2() throws RemoteException {
@@ -66,5 +72,7 @@ public class XoService extends UnicastRemoteObject implements XOInterface{
     public void changeValueM5() throws RemoteException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    //end michael
     
 }
