@@ -16,13 +16,13 @@ import javafx.stage.Stage;
  * @author ehab
  */
 public class XOGame extends Application {
-    
+    FXMLDocumentController controller;
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+        FXMLLoader loader=new FXMLLoader(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = loader.load();
+        loader.setController(new FXMLDocumentController(this));
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
     }

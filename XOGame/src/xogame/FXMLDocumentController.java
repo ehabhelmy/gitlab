@@ -18,7 +18,8 @@ import javafx.scene.control.TextField;
  * @author ehab
  */
 public class FXMLDocumentController implements Initializable {
-
+    
+    XOGame application;
     @FXML
     private TextField m8;
     @FXML
@@ -37,6 +38,10 @@ public class FXMLDocumentController implements Initializable {
     private TextField m1;
     @FXML
     private TextField m9;
+
+    FXMLDocumentController(XOGame aThis) {
+        application=aThis;
+    }
 
     /**
      * Initializes the controller class.
