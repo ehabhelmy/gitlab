@@ -48,6 +48,15 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void resetGame(ActionEvent event) {
+        m1.setText("");
+        m2.setText("");
+        m3.setText("");
+        m4.setText("");
+        m5.setText("");
+        m6.setText("");
+        m7.setText("");
+        m8.setText("");
+        m9.setText("");
     }
     
 }
