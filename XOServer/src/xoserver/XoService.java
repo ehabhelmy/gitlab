@@ -21,32 +21,32 @@ public class XoService extends UnicastRemoteObject implements XOInterface{
 
     @Override
     public void Reset() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
-    public void changeValueM1() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM1(String value) throws RemoteException {
+        
     }
 
     @Override
-    public void changeValueM6() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM6(String value) throws RemoteException {
+        
     }
 
     @Override
-    public void changeValueM7() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM7(String value) throws RemoteException {
+       
     }
 
     @Override
-    public void changeValueM8() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM8(String value) throws RemoteException {
+        
     }
 
     @Override
-    public void changeValueM9() throws RemoteException {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void changeValueM9(String value) throws RemoteException {
+         
     }
     
     //end Ehab

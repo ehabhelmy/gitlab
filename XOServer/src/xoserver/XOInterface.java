@@ -16,15 +16,15 @@ public interface XOInterface extends Remote {
 
     public void Reset() throws RemoteException;
 
-    public void changeValueM1() throws RemoteException;
+    public void changeValueM1(String value) throws RemoteException;
 
-    public void changeValueM6() throws RemoteException;
+    public void changeValueM6(String value) throws RemoteException;
 
-    public void changeValueM7() throws RemoteException;
+    public void changeValueM7(String value) throws RemoteException;
 
-    public void changeValueM8() throws RemoteException;
+    public void changeValueM8(String value) throws RemoteException;
 
-    public void changeValueM9() throws RemoteException;
+    public void changeValueM9(String value) throws RemoteException;
 
     public void changeValueM2() throws RemoteException;
 
